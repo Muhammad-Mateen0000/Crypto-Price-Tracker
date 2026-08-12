@@ -44,7 +44,7 @@ function App() {
 
     const interval = setInterval(() => {
       getCryptoPrices();
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [dispatch, selectedCurrency]);
